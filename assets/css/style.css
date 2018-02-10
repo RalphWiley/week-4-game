@@ -1,0 +1,107 @@
+#title {
+    background-color: rgb(209, 136, 0);
+    color: white;
+    padding: 5px;
+    
+}
+
+body {
+    background-image: url("../images/gplaypattern.png");
+    
+}
+
+.instructions {
+    background-color: rgb(230, 205, 159);
+    color: green;
+    height: 250px;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 25px;
+    margin-bottom: 15px;
+    
+}
+
+.custom-class {
+    margin-left: 5px;
+}
+
+.startingNumber {
+    background-color: green;
+    color: purple;
+    height: 100px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.gemImage1 {
+    background-color: white;
+
+}
+
+.gemImage2 {
+    background-color: white;
+    margin-left: 15px;
+  
+}
+
+.gemImage3 {
+    background-color: white;
+    margin-left: 15px;
+}
+
+.gemImage4 {
+    background-color: white;
+    margin-left: 15px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.stats {
+    background-color: rgb(102, 207, 233);
+    color: black;
+    height: 100px;
+    padding: 10px;
+}
+
+.playerScore {
+    background-color: rgb(3, 128, 111);
+    color: white;
+    padding-left: 5px;
+}
+
+.total-border {
+    background-color: rgb(3, 128, 111);
+    
+}
+
+#total {
+    height: 100px;
+    color: white;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 991px) {
+    .gemImage2 {
+        background-color: white;
+        margin-left: 0px;
+      
+    }
+    
+    .gemImage3 {
+        background-color: white;
+        margin-left: 0px;
+        
+      
+    }
+    
+    .gemImage4 {
+        background-color: white;
+        margin-left: 0px;
+        
+       
+    }
+}
